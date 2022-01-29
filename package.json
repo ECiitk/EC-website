@@ -1,0 +1,20 @@
+{
+  "name": "ec-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mai.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patronus-charm/EC-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patronus-charm/EC-website/issues"
+  },
+  "homepage": "https://github.com/patronus-charm/EC-website#readme"
+}
