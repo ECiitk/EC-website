@@ -43,7 +43,7 @@ var data = [
 		tagLine: '#revive_the_glorious_past',
 		post: 'General Secretary, Media and Culture',
 		manifesto: 'https://drive.google.com/file/d/1oixPOrMZ9oFxudLUKQalpB1dZEnP_XTg/view?usp=sharing',
-		poster: ['../'],
+		poster: ['../assets/img/Posters/Ghanshyam.jpg'],
 	},
 	
 	{

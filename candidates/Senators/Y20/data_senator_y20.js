@@ -46,7 +46,7 @@ var data=[
     image:"../../../assets/img/senators20/BT_BS Y20 Senator_Paramveer_Choudhary.jpeg",
     tagLine:"#",
     post:"Senator BT/BS Y20",
-    manifesto:"https://drive.google.com/file/d/1zI_9PdsIOQOU2JtvQ4KfruBeNVLV0JMh/view?usp=sharing",
+    manifesto:"https://drive.google.com/file/d/1CPzEVOhab6ELBLdF_w1BUQyqlh7ltxGK/view",
     poster:["../../../"]
 },
 
