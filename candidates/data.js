@@ -33,7 +33,7 @@ var data = [
 		tagLine: '#Ajmera_for_AnC',
 		post: 'General Secretary, PG Academics and Career',
 		manifesto: 'https://drive.google.com/file/d/1k6A_nfmOT8xNnVGNNy0AzrYlzl5DP5Lo/view?usp=sharing',
-		poster: ['../'],
+		poster: ['../assets/img/Posters/Manit.jpg'],
 	},
 	
 	{
@@ -53,7 +53,7 @@ var data = [
 		tagLine: '#TamberForSnT',
 		post: 'General Secretary, Science and Technology',
 		manifesto: 'https://drive.google.com/file/d/1_C-w2xzAqMUL-uc8nwJKhkhA3AoC7-MV/view?usp=sharing',
-		poster: ['../'],
+		poster: ['../assets/img/Posters/Som.jpg'],
 	}
 ];
 
