@@ -44,7 +44,7 @@ var data=[
         "id":5,
         "name":"Jyotirmay Singh",
         "image":"../../../assets/img/senators21/BT_BS Y21 Senator Jyotirmay.jpg",
-        "tagLine":"#",
+        "tagLine":"#jyoti_for_janta",
         "post":"Senator BT/BS Y21",
         "manifesto":"https://drive.google.com/file/d/1ddVZ4T9Cv2gHQ7gnam2kBuOQreVKfn-f/view?usp=sharing",
         "poster":["../../../assets/img/Posters/Jyotirmay.jpg"]
@@ -57,7 +57,7 @@ var data=[
         "tagLine":"#KUSHAGRA_HAI_EKAGRA",
         "post":"Senator BT/BS Y21",
         "manifesto":"https://drive.google.com/file/d/192ogq8s3lW5kyPgPk-Y-JiKWVdaYy-Gc/view?usp=sharing",
-        "poster":["../../../assets/img/Posters/Kushagra.jpg"]
+        "poster":["../../../assets/img/Posters/Kushagra.jpg","../../../assets/img/Posters/Kushagra(2).jpg"]
     },
 
     {
@@ -67,7 +67,7 @@ var data=[
         "tagLine":"TakingActionGettingResults",
         "post":"Senator BT/BS Y21",
         "manifesto":"https://drive.google.com/file/d/1evyqw9RHjGWyYM-yGzbyAX1xs1uibUSg/view?usp=sharing",
-        "poster":["../../../assets/img/Posters/Prasang.jpg"]
+        "poster":["../../../assets/img/Posters/Prasang.jpg","../../../assets/img/Posters/Prasang(2).jpg"]
     },
 
     {
@@ -114,7 +114,7 @@ var data=[
         "id":12,
         "name":"Sahil Panjwani",
         "image":"../../../assets/img/senators21/SENATORY21_SAHIL_PANJWANI.jpg",
-        "tagLine":"#",
+        "tagLine":"#sahil_for_senate",
         "post":"Senator BT/BS Y21",
         "manifesto":"https://drive.google.com/file/d/1-kx-RcooCyL-FQbxCcVJsNAvQx3g2Gs8/view?usp=sharing",
         "poster":["../../../assets/img/Posters/Sahil.jpg"]
@@ -177,7 +177,7 @@ var data=[
         "tagLine":"#nitin_for_y21",
         "post":"Senator BT/BS Y21",
         "manifesto":"https://drive.google.com/file/d/1mUmUpIoPoAsesG3vJ-d22xVhBlWen_Cg/view?usp=sharing",
-        "poster":["../../../assets/img/Posters/Nitin.jpg"]
+        "poster":["../../../assets/img/Posters/Nitin.jpg","../../../assets/img/Posters/Nitin(2).jpg"]
     },
 
     {

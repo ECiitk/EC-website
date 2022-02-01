@@ -6,7 +6,7 @@ var data=[
     tagLine:"#Akshunya_for_Action",
     post:"Senator BT/BS Y20",
     manifesto:"https://drive.google.com/file/d/11kffbbelCmm3ErIeuWGn0vcXao5MBowo/view?usp=sharing",
-    poster:["../../../assets/img/Posters/Akshunya.jpg"]
+    poster:["../../../assets/img/Posters/Akshunya.jpg","../../../assets/img/Posters/Akshunya(2).jpg"]
 
 },
 
@@ -34,7 +34,7 @@ var data=[
     id:4,
     name:"Kshiteesh Bhardwaj",
     image:"../../../assets/img/senators20/Senator Y20_Kshiteesh_Bhardwaj.jpg",
-    tagLine:"#Kshiteesh4Senate_Kshenate4Change",
+    tagLine:"#Kshiteesh_KAAM_Karega",
     post:"Senator BT/BS Y20",
     manifesto:"https://drive.google.com/file/d/1zI_9PdsIOQOU2JtvQ4KfruBeNVLV0JMh/view?usp=sharing",
     poster:["../../../assets/img/Posters/Kshiteesh.jpg"]
@@ -44,10 +44,10 @@ var data=[
     id:5,
     name:"Paramveer Singh Choudhary",
     image:"../../../assets/img/senators20/BT_BS Y20 Senator_Paramveer_Choudhary.jpeg",
-    tagLine:"#",
+    tagLine:"#Paramveer_hi_Param_Vikalp",
     post:"Senator BT/BS Y20",
-    manifesto:"https://drive.google.com/file/d/1zI_9PdsIOQOU2JtvQ4KfruBeNVLV0JMh/view?usp=sharing",
-    poster:["../../../"]
+    manifesto:"https://drive.google.com/file/d/1CPzEVOhab6ELBLdF_w1BUQyqlh7ltxGK/view",
+    poster:["../../../assets/img/Posters/Paramveer.jpg"]
 },
 
 {
@@ -123,7 +123,7 @@ var data=[
 {
     id:13,
     name:"Shantanu Sirothia",
-    image:"../../../assets/img/senators20/Shantanu.jpg",
+    image:"../../../assets/img/senators20/BTBS_Y20_Senator_Shantanu_Sirothia.jpg",
     tagLine:"#SHANTANU_SAMBHAL_LEGA",
     post:"Senator BT/BS Y20",
     manifesto:"https://drive.google.com/file/d/1GJlESj_MmCpq8SbvtB7GIGoVNXERZ11z/view?usp=sharing",
