@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/patronus-charm/EC-website/issues"
   },
-  "homepage": "https://github.com/patronus-charm/EC-website#readme"
+  "homepage": "https://github.com/patronus-charm/EC-website#readme",
+  "dependencies": {
+    "firebase": "^9.9.2"
+  }
 }
