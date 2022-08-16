@@ -1337,7 +1337,7 @@
 							<div class="contact-phone">
 								<i class="ion-ios-telephone-outline"></i>
 								<h3>Phone Number</h3>
-								<p><a href="tel:+918349661664">+91 8349661664</a></p>
+								<p><a href="tel:+918957465229">+91 8957465229</a></p>
 							</div>
 						</div>
 
@@ -1416,7 +1416,7 @@
 								New SAC, OAT<br />
 								IIT Kanpur <br />
 								<strong>Phone:</strong>
-								<a href="tel:+918349661664">+91 8957465229</a><br />
+								<a href="tel:+918957465229">+91 8957465229</a><br />
 								<strong>Email:</strong>
 								<a href="mailto:ec_sg@iitk.ac.in">ec_sg@iitk.ac.in</a><br />
 							</p>
@@ -1453,6 +1453,29 @@
 		<!-- <div id="preloader"></div> -->
 
 		<!-- Vendor JS Files -->
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+			import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+		  
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			const firebaseConfig = {
+			  apiKey: "AIzaSyDIdU6JBel8u2TTpIGobfw-2KdfkGjpN1M",
+			  authDomain: "eciitk-website.firebaseapp.com",
+			  projectId: "eciitk-website",
+			  storageBucket: "eciitk-website.appspot.com",
+			  messagingSenderId: "470466072080",
+			  appId: "1:470466072080:web:23aa640990f2583f90c495",
+			  measurementId: "G-77KG01PC2G"
+			};
+		  
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+			const analytics = getAnalytics(app);
+		  </script>
 		<script src="assets/vendor/jquery/jquery.min.js"></script>
 		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>

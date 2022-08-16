@@ -188,7 +188,7 @@ data.forEach((person)=>{
                                 <div class="contact-phone">
                                     <i class="ion-ios-telephone-outline"></i>
                                     <h3>Phone Number</h3>
-                                    <p><a href="tel:+918349661664">+91 8349661664</a></p>
+                                    <p><a href="tel:+918957465229">+91 8957465229</a></p>
                                 </div>
                             </div>
     
@@ -292,7 +292,7 @@ data.forEach((person)=>{
                                     New SAC, OAT<br />
                                     IIT Kanpur <br />
                                     <strong>Phone:</strong>
-                                    <a href="tel:+918349661664">+91 8349661664</a><br />
+                                    <a href="tel:+918957465229">+91 8957465229</a><br />
                                     <strong>Email:</strong>
                                     <a href="mailto:ec_sg@iitk.ac.in">ec_sg@iitk.ac.in</a><br />
                                 </p>

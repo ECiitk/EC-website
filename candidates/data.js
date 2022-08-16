@@ -50,7 +50,7 @@ var data = [
 		id: 6,
 		name: 'Som Tambe',
 		image: '../assets/img/executive_candidate/Som Tambe.JPG',
-		tagLine: '#TamberForSnT',
+		tagLine: '#TambeForSnT',
 		post: 'General Secretary, Science and Technology',
 		manifesto: 'https://drive.google.com/file/d/1_C-w2xzAqMUL-uc8nwJKhkhA3AoC7-MV/view?usp=sharing',
 		poster: ['../assets/img/Posters/Som.jpg'],
