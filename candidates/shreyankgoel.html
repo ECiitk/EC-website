@@ -1,15 +1,4 @@
-const { data } = require('./data.js');
-const fs = require('fs');
-
-data.forEach((person)=>{
-console.log(person.name);
-});
-
-var posters='';
-
-data.forEach((person)=>{
-    posters='';
-    var htmlContent=`<!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
         <head>
             <meta charset="utf-8" />
@@ -105,14 +94,14 @@ data.forEach((person)=>{
                 <section id="portfolio" class="section-bg">
                     <div class="container">
                         <header class="section-header">
-                            <h3 class="section-title">${person.name}</h3>
+                            <h3 class="section-title">Shreyank Goel</h3>
                         </header>
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <img src="${person.image}" class="img-fluid" alt="" style="width: 100%" />
-                                    <p class="post-name"><span style="font-weight: bolder">Tagline - </span>${person.tagLine}</p>
-                                    <p class="post-name"><span style="font-weight: bolder">Post -</span>${person.post}</p>
+                                    <img src="../assets/img/executive_candidate/Shreyank Goel.JPG" class="img-fluid" alt="" style="width: 100%" />
+                                    <p class="post-name"><span style="font-weight: bolder">Tagline - </span>#road_to_midterm</p>
+                                    <p class="post-name"><span style="font-weight: bolder">Post -</span>General Secretary, PG Academics and Career</p>
                                     
                                     <h4
                                         class="button"
@@ -128,11 +117,11 @@ data.forEach((person)=>{
                                             border-left: 1px solid #ebe3e3;
                                         "
                                     >
-                                        <a href="${person.manifesto}">Candidate Manifesto</a>
+                                        <a href="https://drive.google.com/file/d/1dtmX9cLdVqCvJtkyUUb_5eI7th60HOvS/view">Candidate Manifesto</a>
                                     </h4>
                                 </div>
                                 <div class="col-lg-8">
-                                    ${addImages(person.poster)}
+                                    <img src=../assets/img/Posters/Shreyank.jpg class='img-fluid poster-image' alt='' />
                                     <!--iframe class="video" width="100%" height="400px" src="https://www.youtube.com/embed/c9w5ic91CUM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
                                 </div>
                             </div>
@@ -354,15 +343,4 @@ data.forEach((person)=>{
             <script src="../assets/js/main.js"></script>
         </body>
     </html>
-    `;
-    fs.writeFile(`${person.name.toLowerCase().replace(/\s/g,'')}.html`,htmlContent, (error)=>{
-        console.error(error);
-    });
-});
-    function addImages(persons){
-        for(var i=0;i<persons.length;i++)
-        {
-            posters+=`<img src=${persons[i]} class='img-fluid poster-image' alt='' />`
-        }
-        return posters;
-    }
+    

@@ -1,4 +1,4 @@
-const { data } = require('./data.js');
+const { data } = require('./datasenatorY22MDesMBA.js');
 const fs = require('fs');
 
 data.forEach((person)=>{
@@ -6,9 +6,11 @@ console.log(person.name);
 });
 
 var posters='';
+var tg='';
 
 data.forEach((person)=>{
     posters='';
+    tg='';
     var htmlContent=`<!DOCTYPE html>
     <html lang="en">
         <head>
@@ -20,23 +22,23 @@ data.forEach((person)=>{
             <meta content="" name="keywords" />
     
             <!-- Favicons -->
-            <link href="../assets/img/logos/lgo-01.png" rel="icon" />
-            <link href="../assets/img/logos/lgo-01.png" rel="apple-touch-icon" />
+            <link href="../../../assets/img/logos/lgo-01.png" rel="icon" />
+            <link href="../../../assets/img/logos/lgo-01.png" rel="apple-touch-icon" />
     
             <!-- Google Fonts -->
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet" />
     
             <!-- Vendor CSS Files -->
-            <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-            <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-            <link href="../assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
-            <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
-            <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet" />
-            <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+            <link href="../../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="../../../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+            <link href="../../../assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
+            <link href="../../../assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+            <link href="../../../assets/vendor/venobox/venobox.css" rel="stylesheet" />
+            <link href="../../../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
     
             <!-- Template Main CSS File -->
-            <link href="../assets/css/style.css" rel="stylesheet" />
-            <link href="./main.css" rel="stylesheet" />
+            <link href="../../../assets/css/style.css" rel="stylesheet" />
+            <link href="./../../main.css" rel="stylesheet" />
         </head>
     
         <body>
@@ -45,7 +47,7 @@ data.forEach((person)=>{
                 <div class="container-fluid">
                     <div id="logo" class="pull-left">
                         <h1>
-                            <a href="../index.html" class="scrollto">EC<span>.</span></a>
+                            <a href="../../../senators.html" class="scrollto">EC<span>.</span></a>
                         </h1>
                         <!-- Uncomment below if you prefer to use an image logo -->
                         <!-- <a href="#intro"><img src="assets/img/logos/lgo-01.png" alt="" style="height: 90px;"></a> -->
@@ -81,7 +83,7 @@ data.forEach((person)=>{
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="carousel-background">
-                                    <img src="../assets/img/background/iitk.jpg" alt="" />
+                                    <img src="../../../assets/img/background/iitk.jpg" alt="" />
                                 </div>
                                 <div class="carousel-container">
                                     <div class="carousel-content">
@@ -111,7 +113,7 @@ data.forEach((person)=>{
                             <div class="row">
                                 <div class="col-lg-4">
                                     <img src="${person.image}" class="img-fluid" alt="" style="width: 100%" />
-                                    <p class="post-name"><span style="font-weight: bolder">Tagline - </span>${person.tagLine}</p>
+                                    ${addTagLine(person.tagLine)}
                                     <p class="post-name"><span style="font-weight: bolder">Post -</span>${person.post}</p>
                                     
                                     <h4
@@ -122,26 +124,25 @@ data.forEach((person)=>{
                                             background-color: #f9faed;
                                             color: #333333;
                                             padding: 2px 6px 2px 6px;
-                                            border-top: 1px solid #f1eaea;
-                                            border-right: 1px solid #f5ecec;
-                                            border-bottom: 1px solid #f7eeee;
-                                            border-left: 1px solid #ebe3e3;
+                                            border-top: 1px solid #e7dede;
+                                            border-right: 1px solid #dfd1d1;
+                                            border-bottom: 1px solid #f1eaea;
+                                            border-left: 1px solid #f5ebeb;
                                         "
                                     >
-                                        <a href="${person.manifesto}">Candidate Manifesto</a>
+                                        <a href="${person.manifesto}"><b>Candidate Manifesto</b></a>
                                     </h4>
                                 </div>
                                 <div class="col-lg-8">
-                                    ${addImages(person.poster)}
+                                ${addImages(person.poster)}
                                     <!--iframe class="video" width="100%" height="400px" src="https://www.youtube.com/embed/c9w5ic91CUM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
                                 </div>
                             </div>
                         </div>
-    
-                        <!--div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <p class="credentials">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!--p class="credentials">
                     <span style="font-weight: bolder;">Credentials -</span>
                     <ul class="credentials-list">
                       <li>Convener,CoSHA(2019-20)</li>
@@ -158,10 +159,10 @@ data.forEach((person)=>{
                       <li>Part of Institute Dance team which went on top perform in InterIIT, Rendezvous and Antaragni in 2018</li>
                       <li>Convener,CoSHA(2019-20)</li>
                     </ul>
-                  </p>
-                </div>
-              </div>
-            </div-->
+                  </p-->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <!-- End Portfolio Section -->
@@ -260,7 +261,7 @@ data.forEach((person)=>{
                         <div class="row">
                             <div class="col-lg-3 col-md-6 footer-info">
                                 <a href="index.html"
-                                    ><span><img src="../assets/img/logos/lgo-01.png" style="width: 200px; position: relative" /></span
+                                    ><span><img src="../../../assets/img/logos/lgo-01.png" style="width: 200px; position: relative" /></span
                                 ></a>
                                 <br /><br />
                                 <!-- <h3>EC</h3> -->
@@ -278,7 +279,7 @@ data.forEach((person)=>{
                   <li><i class="ion-ios-arrow-right"></i> <a href="#">Schedule</a></li> -->
                                     <li>
                                         <i class="ion-ios-arrow-right"></i>
-                                        <a href="/index.html#portfolio">Candidates</a>
+                                        <a href="/senators.html">Candidates</a>
                                     </li>
                                     <!-- <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li> -->
                                 </ul>
@@ -336,24 +337,25 @@ data.forEach((person)=>{
             <!-- <div id="preloader"></div> -->
     
             <!-- Vendor JS Files -->
-            <script src="../assets/vendor/jquery/jquery.min.js"></script>
-            <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-            <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-            <script src="../assets/vendor/php-email-form/validate.js"></script>
-            <script src="../assets/vendor/wow/wow.min.js"></script>
-            <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-            <script src="../assets/vendor/counterup/counterup.min.js"></script>
-            <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-            <script src="../assets/vendor/venobox/venobox.min.js"></script>
-            <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-            <script src="../assets/vendor/superfish/superfish.min.js"></script>
-            <script src="../assets/vendor/hoverIntent/hoverIntent.js"></script>
-            <script src="../assets/vendor/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+            <script src="../../../assets/vendor/jquery/jquery.min.js"></script>
+            <script src="../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="../../../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+            <script src="../../../assets/vendor/php-email-form/validate.js"></script>
+            <script src="../../../assets/vendor/wow/wow.min.js"></script>
+            <script src="../../../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+            <script src="../../../assets/vendor/counterup/counterup.min.js"></script>
+            <script src="../../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+            <script src="../../../assets/vendor/venobox/venobox.min.js"></script>
+            <script src="../../../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+            <script src="../../../assets/vendor/superfish/superfish.min.js"></script>
+            <script src="../../../assets/vendor/hoverIntent/hoverIntent.js"></script>
+            <script src="../../../assets/vendor/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
     
             <!-- Template Main JS File -->
-            <script src="../assets/js/main.js"></script>
+            <script src="../../../assets/js/main.js"></script>
         </body>
     </html>
+    
     `;
     fs.writeFile(`${person.name.toLowerCase().replace(/\s/g,'')}.html`,htmlContent, (error)=>{
         console.error(error);
@@ -365,4 +367,9 @@ data.forEach((person)=>{
             posters+=`<img src=${persons[i]} class='img-fluid poster-image' alt='' />`
         }
         return posters;
+    }
+    function addTagLine(persons){
+        if(persons!="#")
+        tg+=`<p class="post-name"><span style="font-weight: bolder">Tagline - </span>${persons}</p>`
+        return tg;
     }
